@@ -3,7 +3,7 @@ package test;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
-
+//komentarz
 public class MultiplyTest {
 
 	@Test
