@@ -1,20 +1,62 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.mycompany.app</groupId>
-  <artifactId>MultiplyTest</artifactId>
-  <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
-  <name>Maven Quick Start Archetype</name>
-  <url>http://maven.apache.org</url>
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
+01
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+02
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+03
+ 
+04
+   <modelVersion>4.0.0</modelVersion>
+05
+   <groupId>com.javacodegeeks</groupId>
+06
+   <artifactId>AllTests</artifactId>
+07
+   <version>0.0.1-SNAPSHOT</version>
+08
+   <packaging>jar</packaging>
+09
+ 
+10
+   <dependencies>
+11
+      <dependency>
+12
+         <groupId>junit</groupId>
+13
+         <artifactId>junit</artifactId>
+14
+         <version>4.11</version>
+15
+      </dependency>
+16
+   </dependencies>
+17
+ 
+18
+   <build>
+19
+    <sourceDirectory>test</sourceDirectory>
+20
+    <plugins>
+21
+        <plugin>
+22
+            <artifactId>maven-compiler-plugin</artifactId>
+23
+            <version>3.1</version>
+24
+            <configuration>
+25
+                <source>1.7</source>
+26
+                <target>1.7</target>
+27
+            </configuration>
+28
+        </plugin>
+29
+    </plugins>
+30
+  </build>
+31
 </project>
