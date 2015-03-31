@@ -6,7 +6,7 @@ import org.junit.Test;
 
 public class ConcateTest {
 
-	@Test*
+	@Test
 	public void testConcatenate() {
 		Junit test = new Junit();
 		String result = test.concatenate("one", "two");
