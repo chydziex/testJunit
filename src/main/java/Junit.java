@@ -10,4 +10,8 @@ public class Junit {
 	{
 			return number1 * number2;
 	}
+	public int bezTestu(int bez)
+	{
+		return 0;
+	}
 }
