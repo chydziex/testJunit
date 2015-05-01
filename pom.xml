@@ -28,7 +28,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 		<plugin>
   			<groupId>org.jacoco</groupId>
   			<artifactId>jacoco-maven-plugin</artifactId>
-  			<version>0.7.5-SNAPSHOT</version>
+  			<version>0.7.4.201502262128</version>
 		</plugin>
 	</plugins>
   </build>
